@@ -25,15 +25,15 @@ def run():
 	print(f"Grade point for course 1 is: {gradepoint1}")
 	
 	
-	c1letterGrade = input("Enter your course 2 letter grade: ")
+	c2letterGrade = input("Enter your course 2 letter grade: ")
 	credit2 = float(input("Enter your course 2 credit: "))
-	gradepoint2 = getGradePoint(c1letterGrade)
+	gradepoint2 = getGradePoint(c2letterGrade)
 	print(f"Grade point for course 2 is: {gradepoint1}")
 
 
-	c1letterGrade = input("Enter your course 3 letter grade: ")
+	c3letterGrade = input("Enter your course 3 letter grade: ")
 	credit3 = float(input("Enter your course 3 credit: "))
-	gradepoint3 = getGradePoint(c1letterGrade)
+	gradepoint3 = getGradePoint(c3letterGrade)
 	print(f"Grade point for course 1 is: {gradepoint3}")
 
 
