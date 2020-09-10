@@ -1,3 +1,6 @@
+#Writer: Dylan Ding 
+#ID: dvd5567
+
 def getGradePoint(letterGrade):
   if(letterGrade == "A"):
     return 4.0
